@@ -50,7 +50,12 @@ class CachedObject implements ICachedObject {
 	 * @return mixed
 	 */
 	public function __call($name, $arguments) {
-		return $this->_invokeCached($name, array($this->_Subject, $name), $arguments);
+		$callback = array($this->_Subject, $name);
+		if (method_exists($this->_Subject, $name)) {
+			return $this->_invokeCached($name, $callback, $arguments);
+		} else {
+			return call_user_func_array($callback, $arguments);
+		}
 	}
 
 	/**
