@@ -1,4 +1,4 @@
-<?
+<?php
 
 /**
  * Author: imsamurai <im.samuray@gmail.com>
@@ -37,6 +37,7 @@ class CachingBehavior extends ModelBehavior {
 	 * @param Model $Model
 	 * @param string|array $cache
 	 * @return ICachedObject
+	 * @throws RuntimeException
 	 */
 	public function cached(Model $Model, $cache = null) {
 		list($plugin, $class) = pluginSplit($this->config[$Model->alias]['cachedObject'], true);

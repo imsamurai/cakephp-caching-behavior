@@ -1,4 +1,4 @@
-<?
+<?php
 
 /**
  * Models for testing
@@ -34,7 +34,7 @@ class CachingBehaviorTestModel extends Model {
 	 * @return int
 	 */
 	public function something($la, $lo) {
-		return (int) $la + (int) $lo;
+		return (int)$la + (int)$lo;
 	}
 
 }
