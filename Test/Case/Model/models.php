@@ -8,6 +8,9 @@
  * Time: 12:14:01
  *
  */
+
+App::uses('Model', 'Model');
+
 class CachingBehaviorTestModel extends Model {
 
 	/**
