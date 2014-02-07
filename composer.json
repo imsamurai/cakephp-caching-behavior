@@ -1,0 +1,31 @@
+{
+  "name": "imsamurai/cakephp-caching-behavior",
+  "description": "Use it if you want to wrap model methods with cache",
+  "type": "cakephp-plugin",
+  "keywords": [
+    "cakephp",
+    "caching",
+    "behaviour"
+  ],
+  "homepage": "http://github.com/imsamurai/cakephp-caching-behavior",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Shamray Alexander",
+      "email": "im.samuray@gmail.com",
+      "homepage": "https://imsamurai.me",
+      "role": "Maintainer"
+    }
+  ],
+  "require": {
+    "composer/installers": "*"
+  },
+  "support": {
+    "email": "im.samuray@gmail.com",
+    "issues": "https://github.com/imsamurai/cakephp-caching-behavior/issues",
+    "source": "https://github.com/imsamurai/cakephp-caching-behavior"
+  },
+  "extra": {
+    "installer-name": "Caching"
+  }
+}
