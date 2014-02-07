@@ -1,5 +1,7 @@
 CakePHP Caching Behaviour
 ==============================
+[![Build Status](https://travis-ci.org/imsamurai/cakephp-caching-behavior.png)](https://travis-ci.org/imsamurai/cakephp-caching-behavior) [![Coverage Status](https://coveralls.io/repos/imsamurai/cakephp-caching-behavior/badge.png?branch=master)](https://coveralls.io/r/imsamurai/cakephp-caching-behavior?branch=master) [![Latest Stable Version](https://poser.pugx.org/imsamurai/cakephp-caching-behavior/v/stable.png)](https://packagist.org/packages/imsamurai/cakephp-caching-behavior) [![Total Downloads](https://poser.pugx.org/imsamurai/cakephp-caching-behavior/downloads.png)](https://packagist.org/packages/imsamurai/cakephp-caching-behavior) [![Latest Unstable Version](https://poser.pugx.org/imsamurai/cakephp-caching-behavior/v/unstable.png)](https://packagist.org/packages/imsamurai/cakephp-caching-behavior) [![License](https://poser.pugx.org/imsamurai/cakephp-caching-behavior/license.png)](https://packagist.org/packages/imsamurai/cakephp-caching-behavior)
+
 
 Caching Behaviour for CakePHP 2.1+
 
